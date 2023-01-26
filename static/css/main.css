@@ -23,18 +23,18 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   font-weight: 500;
-  margin: 42px 335px 0 0;
+  margin: 42px 0px 0 0;
 }
 
 .u-section-1 .u-text-3 {
-  line-height: 2;
+  line-height: 1.6;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   font-size: 1.125rem;
-  margin: 20px 327px 0 0;
+  margin: 20px 0px 0 0;
 }
 
 .u-section-1 .u-list-1 {
@@ -315,11 +315,11 @@
   }
 
   .u-section-1 .u-text-2 {
-    margin-right: 135px;
+    margin-right: 0px;
   }
 
   .u-section-1 .u-text-3 {
-    margin-right: 127px;
+    margin-right: 0px;
   }
 
   .u-section-1 .u-list-1 {

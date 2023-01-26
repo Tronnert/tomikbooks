@@ -5,6 +5,23 @@
   box-sizing: border-box;
 }
 
+.fav_text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: rgb(17, 17, 17);
+}
+
+.center_div {
+  margin-top: 20px;
+  display: flex; 
+  justify-content: center; 
+  flex-direction: row;
+}
+
+.center_div h3 {
+  margin-top: 20px;
+}
+
 .center_img {
   height: 100%; 
   width: 100%; 
