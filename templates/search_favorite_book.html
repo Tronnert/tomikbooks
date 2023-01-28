@@ -3,171 +3,75 @@
 {% block content %}
 <section class="u-align-left u-clearfix u-grey-5 u-section-1" id="carousel_8f79">
     <div class="u-clearfix u-sheet u-sheet-1">
-    <h2 class="u-text u-text-2"  data-animation-duration="1500"
-        data-animation-delay="500"> Поиск любимой книги</h2>
-        <p class="u-text u-text-3"  data-animation-duration="1500"
-        data-animation-delay="500"> В случае, если вам не удалось найти нужную книгу – не расстраивайтесь! Вы всегда можете обратиться к моим помощникам, и мы обязательно поможем найти вашу сокровенную книгу. </p>
-        <p class="u-text u-text-3"  data-animation-duration="1500"
-        data-animation-delay="500"> Пример 1</p>
-    <div class="container_slider" id="first">
-        <div class="slider">
-            <img class="active slider_img" src="https://source.unsplash.com/gKk9rpyDryU">
-            <img class="slider_img" src="https://source.unsplash.com/VFGEhLznjPU">
-            <img class="slider_img" src="https://source.unsplash.com/InR-EhiO_js">
-        </div>
-        <nav class="slider-nav">
-            <ul>
-                <li class="arrow">
-                    <button class="previous">
-                        <span>
-                            <i class="ion-arrow-left-c"></i>
-                        </span>
-                    </button>
-                </li>
-                <li class="arrow">
-                    <button class="next">
-                        <span>
-                            <i class="ion-arrow-right-c"></i>
-                        </span>
-                    </button>
-                </li>
-            </ul>
-        </nav>
-        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-        <script>
-            create_slider("#first");
-        </script>
-    </div>
-    <!-- partial -->
-    <p class="u-text u-text-3"  data-animation-duration="1500"
-        data-animation-delay="500"> Пример 2</p>
-    <div class="container_slider" id="sec">
-        <div class="slider">
-            <img class="active slider_img" src="https://source.unsplash.com/gKk9rpyDryU">
-            <img class="slider_img" src="https://source.unsplash.com/VFGEhLznjPU">
-            <img class="slider_img" src="https://source.unsplash.com/InR-EhiO_js">
-        </div>
-        <nav class="slider-nav">
-            <ul>
-                <li class="arrow">
-                    <button class="previous">
-                        <span>
-                            <i class="ion-arrow-left-c"></i>
-                        </span>
-                    </button>
-                </li>
-                <li class="arrow">
-                    <button class="next">
-                        <span>
-                            <i class="ion-arrow-right-c"></i>
-                        </span>
-                    </button>
-                </li>
-            </ul>
-        </nav>
-        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-        <script>
-            create_slider("#sec");
-        </script>
-    </div>
-    <p class="u-text u-text-3"  data-animation-duration="1500"
-        data-animation-delay="500"> Пример 3</p>
-    <div class="container_slider" id="third">
-        <div class="slider">
-            <img class="active slider_img" src="https://source.unsplash.com/gKk9rpyDryU">
-            <img class="slider_img" src="https://source.unsplash.com/VFGEhLznjPU">
-            <img class="slider_img" src="https://source.unsplash.com/InR-EhiO_js">
-        </div>
-        <nav class="slider-nav">
-            <ul>
-                <li class="arrow">
-                    <button class="previous">
-                        <span>
-                            <i class="ion-arrow-left-c"></i>
-                        </span>
-                    </button>
-                </li>
-                <li class="arrow">
-                    <button class="next">
-                        <span>
-                            <i class="ion-arrow-right-c"></i>
-                        </span>
-                    </button>
-                </li>
-            </ul>
-        </nav>
-        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-        <script>
-            create_slider("#third");
-        </script>
-    </div>
-    <p class="u-text u-text-3"  data-animation-duration="1500"
-        data-animation-delay="500"> Свяжитесь с нами, любым удобным вам способом и мы поможем вам в поиске вашей любимой детской книги.</p>
+        <h2 class="u-text u-text-2"  data-animation-duration="1500" data-animation-delay="500"> 
+            Поиск любимой книги
+        </h2>
+        <p class="u-text u-text-3"  data-animation-duration="1500" data-animation-delay="500"> 
+            В случае, если вам не удалось найти нужную книгу – не расстраивайтесь! Вы всегда можете обратиться к моим помощникам, и мы обязательно поможем найти вашу сокровенную книгу. 
+        </p>
+        <p class="u-text u-text-3"  data-animation-duration="1500" data-animation-delay="500"> 
+            Свяжитесь с нами, любым удобным вам способом и мы поможем вам в поиске вашей любимой детской книги.
+        </p>
         <div class="u-expanded-width u-list u-list-1">
             <div class="u-repeater u-repeater-1">
-              <div class="u-container-style u-list-item u-repeater-item">
-                <div class="u-container-layout u-similar-container u-container-layout-1">
-                  <div class="span_img_center u-icon u-file-icon">
-                    <img style="height: 100%; 
-                    width: 100%; 
-                    height: 59px;
-                    width: 59px;" src="{{ url_for('static', filename='images/phone.svg') }}" alt="">
-                  </div>
-                  <p class="u-align-center u-text u-text-5">
-                    <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1"
-                      href="tel:+7 (989) 334-17-97">+7&nbsp;(989)&nbsp;334-17-97</a>
-                  </p>
+                <div class="u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-1">
+                        <div class="span_img_center u-icon u-file-icon">
+                            <img style="height: 100%; 
+                            width: 100%; 
+                            height: 59px;
+                            width: 59px;" src="{{ url_for('static', filename='images/phone.svg') }}" alt="">
+                        </div>
+                        <p class="u-align-center u-text u-text-5">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1"
+                                href="tel:+7 (989) 334-17-97">+7&nbsp;(989)&nbsp;334-17-97</a>
+                        </p>
+                    </div>
                 </div>
-              </div>
-              <div class="u-container-style u-list-item u-repeater-item">
-                <div class="u-container-layout u-similar-container u-container-layout-2">
-                  <div class="span_img_center u-icon u-file-icon">
-                    <img style="height: 100%; 
-                    width: 100%; 
-                    height: 59px;
-                    width: 59px;" src="{{ url_for('static', filename='images/mail.svg') }}" alt="">
-                  </div>
-                  <p class="u-align-center u-text u-text-7">
-                    <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2"
-                      href="mailto:tomikbooks@yandex.ru">tomikbooks@yandex.ru</a>
-                  </p>
+                <div class="u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-2">
+                        <div class="span_img_center u-icon u-file-icon">
+                            <img style="height: 100%; 
+                            width: 100%; 
+                            height: 59px;
+                            width: 59px;" src="{{ url_for('static', filename='images/mail.svg') }}" alt="">
+                        </div>
+                        <p class="u-align-center u-text u-text-7">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2"
+                                href="mailto:tomikbooks@yandex.ru">tomikbooks@yandex.ru</a>
+                        </p>
+                    </div>
                 </div>
-              </div>
-              <div class="u-container-style u-list-item u-repeater-item">
-                <div class="u-container-layout u-similar-container u-container-layout-3">
-                  <div class="span_img_center u-icon u-file-icon">
-                    <img style="height: 100%; 
-                    width: 100%; 
-                    height: 59px;
-                    width: 59px;" src="{{ url_for('static', filename='images/tg.svg') }}" alt="">
-                  </div>
-                  <p class="u-align-center u-text u-text-9">
-                    <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3"
-                      href="https://vk.com/tomikbooks"> https://t.me/tomikbooks</a>
-                  </p>
+                <div class="u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-3">
+                        <div class="span_img_center u-icon u-file-icon">
+                            <img style="height: 100%; 
+                            width: 100%; 
+                            height: 59px;
+                            width: 59px;" src="{{ url_for('static', filename='images/tg.svg') }}" alt="">
+                        </div>
+                        <p class="u-align-center u-text u-text-9">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3"
+                                href="https://vk.com/tomikbooks"> https://t.me/tomikbooks</a>
+                        </p>
+                    </div>
                 </div>
-              </div>
-              <div class="u-container-style u-list-item u-repeater-item">
-                <div class="u-container-layout u-similar-container u-container-layout-4">
-                  <div class="span_img_center u-icon u-file-icon">
-                    <img style="height: 100%; 
-                    width: 100%; 
-                    height: 59px;
-                    width: 59px;" src="{{ url_for('static', filename='images/vk.svg') }}" alt="">
-                  </div>
-                  <p class="u-align-center u-text u-text-11">
-                    <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-4"
-                      href="https://vk.com/tomikbooks">https://vk.com/tomikbooks</a>
-                  </p>
+                <div class="u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-4">
+                        <div class="span_img_center u-icon u-file-icon">
+                            <img style="height: 100%; 
+                            width: 100%; 
+                            height: 59px;
+                            width: 59px;" src="{{ url_for('static', filename='images/vk.svg') }}" alt="">
+                        </div>
+                        <p class="u-align-center u-text u-text-11">
+                            <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-4"
+                                href="https://vk.com/tomikbooks">https://vk.com/tomikbooks</a>
+                        </p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-      <p class="u-text u-text-3"  data-animation-duration="1500"
-        data-animation-delay="500"> </p>
+        </div>
     </div>
-    <div></div>
-    <br>
-    <br>
 </section>
 {% endblock %}
