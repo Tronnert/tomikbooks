@@ -2,6 +2,7 @@ from flask import Flask, render_template, url_for
 
 application = Flask(__name__)
 
+
 @application.after_request
 def add_header(r):
     """
@@ -13,6 +14,7 @@ def add_header(r):
     r.headers["Expires"] = "0"
     r.headers['Cache-Control'] = 'public, max-age=0'
     return r
+
 
 @application.route("/")
 def main():
@@ -40,4 +42,4 @@ def invitation_cooperation():
 
 
 if __name__ == "__main__":
-   application.run(host='0.0.0.0')
+    application.run(host='0.0.0.0')
