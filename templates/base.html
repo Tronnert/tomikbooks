@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='css/nicepage.css') }}" media="screen">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" media="screen">
   <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+  <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
   <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='js/jquery.js') }}" defer=""></script>
   <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='js/nicepage.js') }}" defer=""></script>
   <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
@@ -105,6 +106,8 @@
     </div>
   </header>
   {% block content %}{% endblock %}
+  	
+<div class="copyright"> Все материалы данного сайта являются объектами авторского права. Запрещается копирование, распространение или любое иное использование информации без предварительного согласия правообладателя. </div>
 </body>
 
 </html>
